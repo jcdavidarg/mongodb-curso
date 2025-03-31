@@ -1,0 +1,3 @@
+use("david_store");
+
+db.products.find();
