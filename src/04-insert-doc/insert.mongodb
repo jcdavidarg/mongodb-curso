@@ -1,0 +1,25 @@
+use("david_store");
+
+/* db.products.insertOne(
+    {
+       name: "Product5",
+       price: 1000 
+    }
+);
+db.products.insertOne(
+    {
+       name: "Product6",
+       price: 1000 
+    }
+); */
+
+
+db.products.insertOne(
+    {
+        _id: 1,
+        name: "Nuevo producto",
+        price: 3500
+    }
+);
+
+db.products.find();
